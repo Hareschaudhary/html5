@@ -1,0 +1,88 @@
+ .section{
+    padding-top: 70px;
+    padding-bottom:70px ;
+
+ }
+ .section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+ }
+ .section h2.section-head:after{
+    background:#e74c3c;
+   
+    display: block;
+    width:100px;
+    height: 3px;
+    margin: 20px auto;
+
+ }
+#header{
+    color: #fff;
+    background-color: #e74c3c;
+}
+#menu{
+    
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu>li{display: inline-block;}
+#menu>li>a{
+    color:#fff;
+    padding: 15px;
+    display:block;
+}
+#menu>li>a:hover{
+    background: #c0393d;
+}
+#logo{
+    font-size: 2em;
+    margin-top:5px ;
+}
+#banner{
+    background:url(https://th.bing.com/th/id/R.ae87891b3dde7b28712b75d14342f1a5?rik=2ZT%2baXLkZYcxWg&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f01%2fnature-wallpaper-27.jpg&ehk=jIVFSOxLN%2fQKs4hEfZHNWAeXoeXkeEXooP%2fTy9Vwkek%3d&risl=&pid=ImgRaw&r=0) no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.banner-title h1{
+    background: rgba(255,255,255,0.8);
+    display:inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+.banner-title p.lead{
+color: #fff;
+background:rgba(231, 76, 60, 0.7) ;
+padding: 10px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i.fa{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+#testimonials{
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/927da923186669.5631e9c30e6a5.jpg)no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0px;
+    position: relative;
+    color: #fff;
+
+}
+#testimonials:before{
+    background: rgba(52, 73, 94, 0.7);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.testimonail img{
+    border-radius: 50%;
+}
+.img{max-width: 210px;}
