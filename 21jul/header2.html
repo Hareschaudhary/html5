@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        section{
+            width: 100vw;
+            height: 100vh;
+            background:url(./images/mirjapur.jfif);
+            background-size: cover;
+        }
+        header{
+            background-color: rgba(255, 255, 255, 1);
+        }
+        .container{
+            width: 95vw;
+            margin: 0px auto;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .box1{
+            display: flex;
+            align-items: center;
+        }
+        .box2{
+            display: flex;
+            align-items: center;
+        }
+        .link li{
+            display: inline-block;
+            padding: 0 15px;
+           
+        }
+         a{
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+        }
+        .search{
+            outline: 1px solid black;
+            padding: 0 9px;
+            border-radius:10px ;
+        }
+        .search input{
+            width: 380px;
+            height: 30px;
+            border: none;
+            border-left: 0.5px solid black;
+            outline: none;
+            
+        }
+       
+       .icon a,i{
+        display: block;
+       
+       }
+       .icon i{
+           margin: 0 30px;
+           font-size: 20px;
+       }
+       .icon a{
+           margin: 0 20px;
+       }
+       .icon{
+        display: flex;
+       }
+       a:hover{
+        font-size: 24px;
+        outline: 0.5px solid black;
+        padding:2px 7px;
+        border-radius: 6px;
+        background-color:whitesmoke;
+       }
+        .search:hover{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <header>
+            <div class="container">
+                <nav>
+                <div class="box1">
+                    <div class="logo">
+                        <img style="width: 80px;" src="./images/myntra_old_logo.webp" alt="">
+                    </div>
+                    <div class="link">
+                         <ul>
+                            <li>
+                                <a href="#">men</a>
+                            </li>
+                            <li>
+                                <a href="#">women</a>
+                            </li>
+                            <li>
+                                <a href="#">kids</a>
+                            </li>
+                            <li>
+                                <a href="#">home&living</a>
+                            </li>
+                            <li>
+                                <a href="#">beauty</a>
+                            </li>
+                            <li>
+                                <a href="#">studio</a>
+                            </li>
+                         </ul>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="search">
+                        <i class="fa fa-magnifying-glass" ></i>
+                        <input type="search" placeholder="search">
+                    </div>
+                    <div class="icon">
+                        <div class="icon1">
+                        <i class="fa-solid fa-user"></i>
+                        <a href="#">profile</a>
+                    </div>
+                    <div class="icon1">
+                        <i class="fa-regular fa-heart"></i>
+                        <a href="#">wislist</a>
+                        </div>
+                        <div class="icon1">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        <a href="#">bag</a>
+                        </div>
+                    </div>
+                </div>
+                </nav>
+            </div>
+        </header>
+    </section>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            color: white;
+        }
+        i,select{
+            color: black;
+        }
+        section{
+            width: 100vw;
+            height: 100vh;
+            background: url(./images/istock-860528756-1607319354.jpg);
+            background-size: cover;
+            
+        }
+        header{
+            background-color: black;
+        }
+      
+        .container{
+            width: 95%;
+            margin: 0 auto;
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .link li{
+            display: inline-block;
+            padding: 0px 10px;
+            
+        }
+        .serch{
+            outline: 1px solid white;
+            margin: 0px;
+            padding: 0px;
+            background-color: white;
+            border-radius: 10px;
+           
+            
+        }
+        .serch input{
+            width: 600px;
+            height: 35px;
+           
+        }
+        .serch select,i{
+            border: none;
+            width:35px ;
+           
+        }
+        .serch select{
+           
+            background-color: black;
+            height: 35px;
+
+        }
+        .serch {
+            background-color: black;
+        }
+        .logo2 i{
+         color: white;
+        }
+        
+        #fleg,#cart{
+            
+            font-size: 25px;
+        }
+        select{
+            background-color: black;
+            color: white;
+            border: none;
+        }
+      
+        
+    </style>
+</head>
+<body>
+    <section>
+        <header>
+            <div class="container">
+
+                <nav>
+
+                <div class="logo1">
+                    <img src="./images/Screenshot 2023-07-20 130048.png" alt="">
+                </div>
+
+                <div class="logo2">
+                    <h4>delever to</h4>
+                    <h1><i class="fa-solid fa-location-dot"></i>india</h1>
+                </div>
+
+                <div class="serch">
+                    <select name="" id="">
+                        <option value=""></option>
+                    </select>
+                    <input type="search"><i style="color: white;" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="link">
+                    <ul>
+                        <li id="fleg">
+                            <i style="color: white;"  class="fa fa-light fa-flag-usa"></i> 
+                            <select name="" id="">
+                                  <option value="">en</option>
+                            </select>
+                        </li>
+                        <li class="black">
+                            <h1>hello.sign in</h1>
+                            <select name="" id="">
+                                <option value="">account&lists</option>
+                            </select>
+                        </li>
+                        <li>
+                          
+                            <h3>returne</h3>
+                            <h3>&orders</h3>
+                           
+                        </li >
+                        <li id="cart"><i class="fa fa-cart-shopping" style="color: white;"></i><a href="#">cart</a></li>
+                    </ul>
+                </div>
+                </nav>
+            </div>
+        </header>
+    </section>
+    
+</body>
+</html>
