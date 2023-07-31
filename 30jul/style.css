@@ -1,0 +1,408 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.container {
+    width: 90vw;
+    margin: 0px auto;
+
+}
+
+#section1 {
+    background: yellow url(./images/se1-bg-img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.se1-mainbox {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.se1-img img {
+    width: 100vw;
+    height: 110vh;
+    position: absolute;
+    top: 18vh;
+    right: 3vw;
+
+}
+
+#logo {
+    padding: 2vw 0vw 0 0vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-box2 {
+    display: flex;
+    text-align: right;
+}
+
+.logo-box2 p {
+    font-size: 1.6vw;
+    font-weight: 700;
+}
+
+.logo-box2 span {
+    font-size: 2.7vw;
+    font-weight: 700;
+}
+
+.logo-box2 i {
+    font-size: 4.7vw;
+    margin-left: 5px;
+
+}
+
+nav .link {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav .link li {
+    display: inline-block;
+    padding: 9px 0;
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: fixed;
+    background: yellow url(./images/se1-bg-img1.png);
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 19vh;
+    z-index: 1;
+}
+
+.se1-mainbox1 {
+    position: absolute;
+    top: 20vw;
+    left: 12vw;
+}
+
+.se1-mainbox1 h3 {
+    font-size: 3.5vw;
+}
+
+.se1-mainbox2 {
+    position: absolute;
+    top: 23vw;
+    left: 8vw;
+    text-align: center;
+}
+
+.se1-mainbox2 h3 {
+    font-size: 5.5vw;
+    font-family: 'Shrikhand', cursive;
+    font-weight: 500;
+}
+
+.se1-mainbox2 span {
+    font-size: 2vw;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border-bottom: 2px solid black;
+}
+
+.se1-mainbox3 {
+    position: absolute;
+    top: 73%;
+    left: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.se1-mainbox3 span {
+    display: block;
+    font-weight: 700;
+    font-size: 132%;
+}
+
+.mainbox3-box2 span {
+    font-size: 250%;
+    font-family: 'Shrikhand', cursive;
+}
+
+.se1-mainbox4 {
+    position: absolute;
+    top: 81%;
+    left: 14%;
+    font-size: 220%;
+    padding: 2px 15px;
+    outline: 3px solid black;
+}
+
+
+/* **********section2************************* */
+#section2 {
+    background: url(./images/se2-bg-img1.png);
+    background-repeat: no-repeat;
+
+    background-position: bottom;
+}
+
+.se2-mainbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.se2-mainbox-box1 {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3% 0px;
+}
+
+.se2-mainbox-box1 h3 {
+    font-size: 230%;
+    padding-bottom: 2%;
+}
+
+.se2-mainbox-box1 p {
+    font-weight: 500;
+    font-size: 120%;
+}
+
+.se2-mainbox-box2 img {
+    width: 100%;
+    border: 2px solid yellow;
+}
+
+.se2-mainbox-box2 {
+    margin: 2% 0 0 0;
+}
+
+.se2-mainbox-box3 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.se2-mainbox-box3-card h3 {
+    font-size: 200%;
+    margin-bottom: 2%;
+}
+
+.se2-mainbox-box3-card p {
+    font-size: 150%;
+    margin-bottom: 2%;
+}
+
+.se2-mainbox-box3-card button {
+    width: 50%;
+    height: 30%;
+    background-color: yellow;
+    font-size: 200%;
+    margin: 7% 0 15% 0;
+}
+
+
+/* **********section3************************* */
+
+.se3-mainbox {
+    margin: 11% 0;
+}
+
+.se3-mainbox-box1 {
+    text-align: center;
+    width: 70%;
+    margin: 2% auto;
+}
+
+.se3-mainbox-box1 h3 {
+    font-size: 300%;
+    font-weight: 500;
+}
+
+.se3-mainbox-box1 .se3-p1 {
+    font-size: 300%;
+    font-weight: 550;
+    margin: 0 0 2% 0;
+}
+
+.se3-mainbox-box1 .se3-p2 {
+    font-size: 114%;
+}
+
+.se3-mainbox-box2 img {
+    width: 100%;
+}
+
+.se3-button {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.se3-button input {
+    color: red;
+    width: 50px;
+    height: 30px;
+    padding: 0px 10%;
+    background-color: yellow;
+}
+
+/* **********section4************************* */
+
+.se4-mainbox {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-row-gap: 5%;
+    grid-column-gap: 2%;
+}
+
+.se4-mainbox img {
+    width: 96%;
+    height: 100%;
+}
+
+.se4-card1 {
+    grid-row: span 2;
+}
+
+/* **********section5************************* */
+
+.se5-mainbox {
+    margin-bottom: 10%;
+}
+
+.se5-mainbox-box1 {
+    text-align: center;
+    margin: 9% 0;
+}
+
+.se5-mainbox-box1 h3 {
+    font-size: 200%;
+}
+
+.se5-mainbox-box1 p {
+    font-size: 350%;
+}
+
+.se5-mainbox-box2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.se5-mainbox-box2 input {
+    display: block;
+    width: 80%;
+    height: 50px;
+    margin: 5% 0;
+    margin: 5% auto;
+    border: none;
+    font-size: 150%;
+    box-shadow: 0px 0px 5px black;
+}
+
+::placeholder {
+    padding: 10px;
+    font-size: 150%;
+}
+
+.se5-mainbox-input1 {
+    width: 30%;
+    height: 100%;
+
+}
+
+.se5-mainbox-input2 {
+    width: 30%;
+    height: 100%;
+}
+
+/* **********section6************************* */
+#section6 {
+    background: url(./images/se6-bg-img1.png);
+    color: white;
+}
+
+.se6-mainbox {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 5% 0;
+}
+
+.se6-mainbox-box1 {
+    width: 50%;
+}
+
+.se6-mainbox-box1 img {
+    padding: 2% 0;
+}
+
+.se6-mainbox-box1 p {
+    margin: 8% 15% 20% 0;
+    font-size: 140%;
+
+}
+
+.se6-mainbox-box1 span {
+    font-size: 140%;
+    margin: 5% 0;
+    display: block;
+}
+
+.se6-mainbox-box2 {
+    position: relative;
+}
+
+.se6-mainbox-box2 .icon1 {
+    position: absolute;
+    top: 40%;
+    right: 200px;
+
+}
+
+.se6-mainbox-box2 .icon1 span {
+    display: block;
+    width: 400px;
+    padding: 10px;
+    font-size: 140%;
+}
+
+.se6-mainbox-box2 .icon1 i {
+    color: yellow;
+    margin-right: 5px;
+}
+
+.se6-mainbox-box2 .icon2 {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    width: 400px;
+    font-size: 200%;
+    text-align: right;
+}
+
+.se6-mainbox-box2 .icon2 i {
+    padding: 0 20px;
+}
